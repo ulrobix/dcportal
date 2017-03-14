@@ -596,7 +596,7 @@ body .container {
   background: url("../img/login_bg.jpg") no-repeat center center;
   padding: 0px 185px;
   background-size: cover;
-  height: 100%;
+  min-height: 100%;
 }
 #login_main .container {
   position: relative;
