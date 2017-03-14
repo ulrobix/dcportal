@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DRIVECRED-login</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid" id="login_main">
+    <div class="container">
+        <div class="row">
+            <div class="login_main">
+                <div class="mid">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <form action="">
+                        <h4>POLICY NAVIGATOR</h4>
+                        <span class="error_text">Неправильный логин или пароль</span>
+                        <input type="text" placeholder="Логин" class="login_input">
+                        <input type="text" placeholder="Пароль" class="password_input">
+                        <input type="submit" value="войти" class="sub_btn">
+                        <a href="#" data-toggle="modal" data-target="#myModal">Забыли пароль?</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="img/close.png" alt="">
+                </button>
+                <h4 class="modal-title">Возобновление пароля</h4>
+            </div>
+            <div class="modal-body">
+                <p>Введите адрес электронной почты и мы вышлем на него дальнейшие инстуркции.</p>
+                <form action="">
+                    <input type="text" placeholder="Email" class="email_input">
+                    <input type="submit" value="Отправить" class="mod_sub_btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

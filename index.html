@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DRIVECRED</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid" id="main">
+    <div class="container">
+        <div class="row">
+            <div class="main clear">
+                <div class="left_sidbar">
+                    <div class="mob_top clear">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/white_logo.png" alt="">
+                            </a>
+                        </div>
+                        <a href="#" class="menu_opener">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="mob_menu">
+                        <div class="menu">
+                            <ul class="navbar">
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <img src="img/menu_icon1.png" alt="">
+                                        Пользователи
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">Список пользователей</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Добавить пользоваеля</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <img src="img/menu_icon2.png" alt="">
+                                        Справочники
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <img src="img/menu_icon3.png" alt="">
+                                        Управление
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">Управление пользователями</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="modal" data-target="#myModal2">Управление контрагентами</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="modal" data-target="#myModal1">Управление складом</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">
+                                        <img src="img/menu_icon4.png" alt="">
+                                        Платформа
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="account">
+                            <a href="#">
+                                <span>
+                                    <img src="img/img.jpg" alt="">
+                                </span>
+                                Tony Oliver
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="right_sidbar">
+                    <div class="top clear">
+                        <div class="user_management">
+                            <p>
+                                Управление пользователями
+                                <a href="#"></a>
+                            </p>
+                        </div>
+                        <div class="search">
+                            <a href="#">Расширенный поиск</a>
+                            <label for="">
+                                <input type="text" placeholder="Введите логин или фамилию пользователя...">
+                                <input type="submit" value="">
+                            </label>
+                        </div>
+                    </div>
+                    <table class="table">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>ФИО</th>
+                                <th>Логин</th>
+                                <th>Телефон</th>
+                                <th>Группы</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox1" type="checkbox" name="checkbox">
+                                    <label for="checkbox1">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">1</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox2" type="checkbox" name="checkbox">
+                                    <label for="checkbox2">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">2</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox3" type="checkbox" name="checkbox">
+                                    <label for="checkbox3">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">3</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox4" type="checkbox" name="checkbox">
+                                    <label for="checkbox4">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">4</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox5" type="checkbox" name="checkbox">
+                                    <label for="checkbox5">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">5</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox6" type="checkbox" name="checkbox">
+                                    <label for="checkbox6">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">6</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox7" type="checkbox" name="checkbox">
+                                    <label for="checkbox7">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">7</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox8" type="checkbox" name="checkbox">
+                                    <label for="checkbox8">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">8</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox9" type="checkbox" name="checkbox">
+                                    <label for="checkbox9">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">9</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="tac">
+                                    <input id="checkbox10" type="checkbox" name="checkbox">
+                                    <label for="checkbox10">
+                                        <span></span>
+                                    </label>
+                                </th>
+                                <th class="tac" scope="row">10</th>
+                                <th>Khaliullov Robert Azatovich</th>
+                                <th>robitest</th>
+                                <th>8 800 999 78 67</th>
+                                <th>[”managers”]</th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/edit.png" alt="">
+                                    </a>
+                                </th>
+                                <th class="tac">
+                                    <a href="#">
+                                        <img src="img/rubbish-bin.png" alt="">
+                                    </a>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="table_navigation clear">
+                        <div class="delete_all">
+                            <input id="checkbox_all" type="checkbox" name="checkbox">
+                            <label for="checkbox_all">
+                                <span></span>Удалить все
+                            </label>
+                        </div>
+                        <div class="items_count">Showing 9 of 70 records</div>
+                        <div class="navigation">
+                            <ul class="clear">
+                                <li class="prev"><a href="#">Previous</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#" class="active">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li class="next"><a href="#">Next</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header clear">
+                <h4 class="modal-title">Железнов Андрей Валерьевич</h4>
+                <span>Заблокирован</span>
+            </div>
+            <div class="modal-body clear">
+                <div class="col-md-6 col-sm-6">
+                    <span class="form_title">
+                        <span>Код склада</span>
+                    </span>
+                    <input type="text" placeholder="" class="input_text">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <span class="form_title">
+                        <span>Адрес склада</span>
+                    </span>
+                    <input type="text" placeholder="" class="input_text">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <span class="form_title">
+                        <span>Наименование</span>
+                    </span>
+                    <input type="text" placeholder="" class="input_text">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <span class="form_title">
+                        <span>Организация</span>
+                    </span>
+                    <input type="text" placeholder="" class="input_text">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <span class="form_title">
+                        <span>Полное наименование</span>
+                    </span>
+                    <input type="text" placeholder="" class="input_text">
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <span class="form_title">
+                        <span>Контактное лицо</span>
+                    </span>
+                    <input type="text" placeholder="" class="input_text">
+                </div>
+            </div>
+            <div class="modal-footer clear">
+                <div class="left_btns">
+                    <a href="#" class="btn1">Заблокировать</a>
+                    <a href="#" class="btn2">Сменить пароль</a>
+                    <a href="#" class="btn3">Удалить пользователя</a>
+                </div>
+                <div class="right_btns">
+                    <a href="#" class="cancel_btn btn_bottom">Отмена</a>
+                    <a href="#" class="save_btn btn_bottom">Сохранить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header clear">
+                <h4 class="modal-title">ИП Железнов Андрей Валерьевич</h4>
+                <span>Заблокирован</span>
+            </div>
+            <div class="modal-body clear">
+                <div class="radios">
+                    <input id="radio1" type="radio" name="radio" checked>
+                    <label for="radio1" class="rad1">
+                        <span></span>Физическое лицо / ИП
+                    </label>
+                    <input id="radio2" type="radio" name="radio">
+                    <label for="radio2" class="rad2">
+                        <span></span>Юридическое лицо
+                    </label>
+                </div>
+                <div class="fiz_lico clear">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Тип контрагента</span>
+                            </span>
+                            <select name="" id="">
+                                <option value="">Тип контрагента</option>
+                                <option value="">Тип 1</option>
+                                <option value="">Тип 2</option>
+                                <option value="">Тип 865</option>
+                            </select>
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Фамилия</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Имя</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Отчество</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Дата рождения</span>
+                            </span>
+                            <div class="date">
+                                <input type="text" class="date_input">
+                                <input type="text" class="date_input">
+                                <input type="text" class="date_input">
+                                <a href="#">
+                                    <img src="img/calendar.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Гражданство</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Место рождения</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Пол</span>
+                            </span>
+                            <div class="pol">
+                                <input id="radio_man" type="radio" name="radio1" checked>
+                                <label for="radio_man">
+                                    <span></span>Мужской
+                                </label>
+                                <input id="radio_woman" type="radio" name="radio1">
+                                <label for="radio_woman">
+                                    <span></span>Женский
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>ИНН</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Тип документа</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Серия документа</span>
+                            </span>
+                            <input type="text">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Номер документа</span>
+                            </span>
+                            <input type="text">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Дата выдачи документа</span>
+                            </span>
+                            <div class="date">
+                                <input type="text" class="date_input">
+                                <input type="text" class="date_input">
+                                <input type="text" class="date_input">
+                                <a href="#">
+                                    <img src="img/calendar.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Номер документа</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Телефон</span>
+                            </span>
+                            <input type="text" class="small_input" maxlength="4">
+                            <input type="text" class="big_input">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Телефон</span>
+                            </span>
+                            <input type="text" class="small_input" maxlength="4">
+                            <input type="text" class="big_input">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Email</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Адрес регистрации</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Фактический адрес</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="yur_lico clear">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Тип контрагента</span>
+                            </span>
+                            <select name="" id="">
+                                <option value="">Тип контрагента</option>
+                                <option value="">Тип 1</option>
+                                <option value="">Тип 2</option>
+                                <option value="">Тип 865</option>
+                            </select>
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Наименование</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Полное наименование</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>ИНН</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>КПП</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>ОКПО</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>ОГРН</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Контактное лицо</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Телефон</span>
+                            </span>
+                            <input type="text" class="small_input" maxlength="4">
+                            <input type="text" class="big_input">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Телефон</span>
+                            </span>
+                            <input type="text" class="small_input" maxlength="4">
+                            <input type="text" class="big_input">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Email</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Юридический адрес</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                        <div class="form_line">
+                            <span class="form_title">
+                                <span>Фактический адрес</span>
+                            </span>
+                            <input type="text" placeholder="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer clear">
+                <div class="left_btns">
+                    <a href="#" class="btn1">Заблокировать</a>
+                    <a href="#" class="btn3">Удалить пользователя</a>
+                </div>
+                <div class="right_btns">
+                    <a href="#" class="cancel_btn btn_bottom">Отмена</a>
+                    <a href="#" class="save_btn btn_bottom">Сохранить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
