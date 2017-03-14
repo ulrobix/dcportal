@@ -68,8 +68,11 @@ td {
   appearance: none;
 }
 
+html {height: 100%}
+
 body {
   line-height: 1;
+  height: 100%
 }
 
 ol,
@@ -593,21 +596,18 @@ body .container {
   background: url("../img/login_bg.jpg") no-repeat center center;
   padding: 0px 185px;
   background-size: cover;
+  height: 100%;
 }
 #login_main .container {
   position: relative;
 }
 .login_main {
-  padding: 80px;
-  background-image: url("../img/login_ramka.png");
+  padding: 20px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100% 100%;
-  height: 800px;
-  position: absolute;
   width: 100%;
-  top: 50%;
-  margin-top: -400px;
+  margin-top: 5%;
 }
 .login_main .logo {
   margin-bottom: 95px;
@@ -1522,16 +1522,5 @@ body .container {
   .btn_bottom {
     width: 110px;
     font-size: 16px;
-  }
-}
-@media (max-height: 841px) {
-  #login_main {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .login_main {
-    position: static;
-    height: auto;
-    margin-top: 0;
   }
 }
