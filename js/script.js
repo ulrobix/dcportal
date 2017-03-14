@@ -37,11 +37,5 @@ $(document).ready(function(e){
     $('.cancel_btn').click(function(e){
         e.preventDefault();
     });
-    
-    if($(window).height() > 840) {
-        $('#login_main .container').css('height',$(window).height());
-        $(window).resize(function(){
-            $('#login_main .container').css('height',$(window).height());
-        });
-    }
+ 
 });
